@@ -11,50 +11,43 @@
 		</figure>
 		<h2><?php the_sub_field('titulo_tabs') ?></h2>
 
-		<div>
-			<?php if(have_rows('tabs')): ?>
-				<div class="container">
-				  <ul class="nav nav-tabs custom-tabs">
-				  	<?php $menu_id = 1; ?>
-				  	<?php while(have_rows('tabs')): the_row();?>
-				    	<li class=""><a class="nombre-menu-tab" data-toggle="tab" href="#menu<?php echo $menu_id; ?>"><?php the_sub_field('nombre_tabs'); ?></a></li>
-					<?php $menu_id++; ?>
-				    <?php endwhile; ?>
-				  </ul>
-				</div>
-			<?php endif; ?>
+		<!-- Place somewhere in the <body> of your page -->
+		<div id="slider" class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    </li>
+		    <li>
+		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    </li>
+		    <li>
+		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    </li>
+		    <li>
+		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    </li>
+		    <!-- items mirrored twice, total of 12 -->
+		  </ul>
+		</div>
+		<div id="carousel" class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    </li>
+		    <li>
+		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    </li>
+		    <li>
+		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    </li>
+		    <li>
+		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    </li>
+		    <!-- items mirrored twice, total of 12 -->
+		  </ul>
 		</div>
 
-		<div class="contenido-tab">
-			<figure class="bloque">
-			</figure>
-
-			<figure class="bloque">
-			</figure>
-
-			<figure class="bloque">
-			</figure>
-
-			<figure class="bloque">
-			</figure>
-
-			<figure class="bloque">
-			</figure>
-
-			<figure class="bloque">
-			</figure>
-
-			<figure class="bloque">
-			</figure>
-
-			<figure class="bloque">
-			</figure>
-
-			<figure class="bloque">
-				<img src="" alt="">
-			</figure>
-			
-		</div>	
+		
 	</div>
 </section>
 
