@@ -19,7 +19,7 @@
 		height: auto;
 		background: none;
 
-		&--tiny { position: relative; }
+		/*&--tiny { position: relative; }*/
 	}
 
 	@media (max-width: $tablet-width) {
@@ -47,7 +47,6 @@
 			max-width: $desktop-width;
 			width: 100%;
 			height: auto;
-			display: inline-block;
 		}
 
 		/* Logo */
