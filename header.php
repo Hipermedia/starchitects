@@ -53,7 +53,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body name="nav-inicio" <?php body_class(); ?>>
 
 <header id="header" class="Header" role="banner" >
     

@@ -10,7 +10,7 @@
     <section class="u-contenedor">
     	
     	<aside class="Footer-creditos">
-    		<a class="Footer-firmaSH" href="http://www.solucioneshipermedia.com/">Soluciones Hipermedia | Desarrollo web</a>
+    		<a class="Footer-firmaSH" href="http://www.solucioneshipermedia.com/"></a>
     	</aside>
     </section>     
 

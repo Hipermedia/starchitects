@@ -43,6 +43,21 @@ jQuery(document).ready(function($) {
 		$('.Mapa iframe').css("pointer-events", "none"); 
 	}); //fin
 
+	// función para desplazamiento lento en enlaces dentro del mismo documento
+	$(function(){
+		$('a[href*=#]').click(function() {
+	     	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	     		var $target = $(this.hash);
+	     		$target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+	     		if ($target.length) {
+	     			var targetOffset = $target.offset().top;
+	     			$('html,body').animate({scrollTop: targetOffset}, 1000);
+	     			return false;
+	     		}
+	     	}
+	 	});
+	 }); //fin
+
 	// The slider being synced must be initialized first
 	$('#carousel').flexslider({
 	  animation: "slide",

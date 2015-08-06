@@ -4,7 +4,7 @@
 ?>
 
 <!-- PrimalBloques -->
-<section class="PrimalText" style="background-image: url('<?php the_sub_field('bg_texto'); ?>')">
+<section name="nav-filosofia" class="PrimalText" style="background-image: url('<?php the_sub_field('bg_texto'); ?>')">
 	<!-- Contenedor -->
 	<div class="PrimalText-contenido u-contenedor">
 		<figure>

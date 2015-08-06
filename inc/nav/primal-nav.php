@@ -11,8 +11,22 @@
     	<!-- Icono de menú para versión adaptativa -->
     	<a class="toggle-nav" href="#">MENU DE NAVEGACIÓN</a>
     	<!-- Menu WordPress -->
-		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => '', 'menu_class' => 'activo', 'menu_id' => 'header-menu') ); ?>
-		
+		<?php //wp_nav_menu( array( 'theme_location' => 'primary', 'container' => '', 'menu_class' => 'activo', 'menu_id' => 'header-menu') ); ?>
+		<ul class="activo">
+			<li>
+				<a href="#nav-inicio" class="active">Inicio</a>
+			</li>
+			<li class="">
+				<a href="#nav-filosofia">Filosofía</a>
+			</li>
+		    <li class="">
+				<a href="#nav-soluciones">Soluciones</a>
+		    </li>
+		    <li class="">
+		        <a href="#nav-contacto">Contacto</a>
+		    </li>
+		</ul>
+
 		<div class="Datos" id="datos-2">
 		    <a class="fondo-i" href="<?php the_field('fb_contacto','option'); ?>">
 		        <i class="fa fa-facebook"></i>

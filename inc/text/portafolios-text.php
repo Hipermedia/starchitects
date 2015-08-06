@@ -3,7 +3,7 @@
 ------------------------------------------------------------------- */ 
 ?>
 <!-- PrimalBloques -->
-<section class="PrimalTabs">
+<section name="nav-soluciones" class="PrimalTabs">
 	<!-- Contenedor -->
 	<div class="PrimalTabs-contenido u-contenedor">
 		<figure>

@@ -21238,6 +21238,8 @@ form.wpcf7-form input[type="submit"]:hover {
   list-style: none;
   margin: 0;
   padding-left: 0;
+  z-index: 999;
+  position: relative;
 }
 
 @media (max-width: 768px) {
