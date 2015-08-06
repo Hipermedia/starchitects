@@ -20538,7 +20538,8 @@ object {
 }
 
 .Header .Header-contenido .Datos.tiny {
-  opacity: 0;
+  /*opacity: 0;*/
+  display: none;
 }
 
 .Header .Header-contenido .Datos .fondo-i {
@@ -21731,10 +21732,37 @@ form.wpcf7-form input[type="submit"]:hover {
   margin-bottom: 1rem;
 }
 
+.PrimalTabs .contenido-tab .bloque .social-share {
+  opacity: 0;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  min-width: 150px;
+  max-width: 150px;
+  height: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  text-align: left;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.PrimalTabs .contenido-tab .bloque .social-share i {
+  padding: .3rem 0;
+  width: 100%;
+  display: block;
+}
+
 .PrimalTabs .contenido-tab .bloque:nth-child(5) {
   width: 98%;
   height: 200px;
   background-position: center;
+}
+
+.PrimalTabs .contenido-tab .bloque:nth-child(5):hover .social-share {
+  opacity: 1;
 }
 
 /* La personalización directa comienza aquí

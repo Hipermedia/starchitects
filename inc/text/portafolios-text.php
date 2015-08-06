@@ -57,6 +57,12 @@
 		    		</figure>
 
 		    		<figure class="bloque">
+		    			<div class="social-share">
+		    				<p>Comparte:</p>
+		    				<i class="fa fa-facebook"></i>
+		    				<i class="fa fa-twitter"></i>
+		    				<i class="fa fa-pinterest"></i>
+		    			</div>
 		    		</figure>
 
 		    		<figure class="bloque">
@@ -89,6 +95,12 @@
 		    		</figure>
 
 		    		<figure class="bloque">
+		    			<div class="social-share">
+		    				<p>Comparte:</p>
+		    				<i class="fa fa-facebook"></i>
+		    				<i class="fa fa-twitter"></i>
+		    				<i class="fa fa-pinterest"></i>
+		    			</div>
 		    		</figure>
 
 		    		<figure class="bloque">
@@ -121,6 +133,12 @@
 		    		</figure>
 
 		    		<figure class="bloque">
+		    			<div class="social-share">
+		    				<p>Comparte:</p>
+		    				<i class="fa fa-facebook"></i>
+		    				<i class="fa fa-twitter"></i>
+		    				<i class="fa fa-pinterest"></i>
+		    			</div>
 		    		</figure>
 
 		    		<figure class="bloque">
@@ -153,6 +171,12 @@
 		    		</figure>
 
 		    		<figure class="bloque">
+		    			<div class="social-share">
+		    				<p>Comparte:</p>
+		    				<i class="fa fa-facebook"></i>
+		    				<i class="fa fa-twitter"></i>
+		    				<i class="fa fa-pinterest"></i>
+		    			</div>
 		    		</figure>
 
 		    		<figure class="bloque">
@@ -185,6 +209,12 @@
 		    		</figure>
 
 		    		<figure class="bloque">
+		    			<div class="social-share">
+		    				<p>Comparte:</p>
+		    				<i class="fa fa-facebook"></i>
+		    				<i class="fa fa-twitter"></i>
+		    				<i class="fa fa-pinterest"></i>
+		    			</div>
 		    		</figure>
 
 		    		<figure class="bloque">
@@ -217,6 +247,12 @@
 		    		</figure>
 
 		    		<figure class="bloque">
+		    			<div class="social-share">
+		    				<p>Comparte:</p>
+		    				<i class="fa fa-facebook"></i>
+		    				<i class="fa fa-twitter"></i>
+		    				<i class="fa fa-pinterest"></i>
+		    			</div>
 		    		</figure>
 
 		    		<figure class="bloque">
@@ -249,6 +285,12 @@
 		    		</figure>
 
 		    		<figure class="bloque">
+		    			<div class="social-share">
+		    				<p>Comparte:</p>
+		    				<i class="fa fa-facebook"></i>
+		    				<i class="fa fa-twitter"></i>
+		    				<i class="fa fa-pinterest"></i>
+		    			</div>
 		    		</figure>
 
 		    		<figure class="bloque">

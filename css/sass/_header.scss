@@ -91,7 +91,8 @@
 			@include transicion();
 
 			&.tiny {
-				opacity: 0;
+				/*opacity: 0;*/
+				display: none;
 			}
 
 			.fondo-i {
