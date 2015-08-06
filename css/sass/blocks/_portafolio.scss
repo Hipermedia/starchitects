@@ -1,0 +1,64 @@
+/*------------------------------------------------*/
+/*------------------[BLOCKS]----------------------*/
+/*------------------------------------------------*/
+
+.PrimalTabs {
+	/*padding-top: 6rem;*/
+	background-size: 100%;
+	background-position: center;
+	padding: 2rem 0;
+
+	.PrimalTabs-contenido {
+		text-align: center;
+
+		figure {
+			width: 50px;
+			display: block;
+			margin: 0 auto;
+
+			img {
+				width: 100%;
+			}
+		}
+		// Responsive
+		@media (max-width: $desktop-width) {
+			padding: 1.5rem;
+		}
+
+			.nav-tabs {
+				text-align: center;
+
+				.nombre-menu-tab {
+					font-size: 20px;
+					float: none;
+					display: inline-block;
+				}
+
+				.nombre-menu-tab::after {
+					content: "   /";
+				}
+			}
+		}
+		
+		.contenido-tab {
+
+			.bloque {
+				background-image: url('images/bg-tabs.jpg');
+				background-size: 100%;
+				display: inline-block;
+				width: 250px;
+				height: 200px;
+				margin: 0 10px;
+				margin-bottom: 1rem;
+			}
+
+			.bloque:nth-child(5) {
+				width: 98%;
+				height: 200px;
+				background-position: center;
+			}
+		}
+
+	}
+
+
