@@ -26,12 +26,14 @@
 			background: none;
 			border: none;
 			border-radius: 0px;
+			padding-bottom: 1.5rem;
 
 			ul {
 				width: 100% !important;
 				transform: none !important;
 
 				li {
+					padding: 0 .3rem;
 					cursor: pointer;
 					width: auto !important;
 					font-size: 20px;
@@ -41,12 +43,30 @@
 
 				li:first-child {
 					width: 100% !important;
+					padding: 1rem 0;
 				}
 				
 				li::after {
 					content: "/";
+					padding: 0 .3rem;
+				}
+
+				li.flex-active-slide {
+					color: #00BBE7;
+					font-weight: bold;
 				}
 			}
+		}
+
+		.custom-content-slider {
+			margin: 0;
+			background: none;
+			border: none;
+			border-radius: 0px;
+		}
+
+		.flex-direction-nav {
+			position: relative;
 		}
 	}
 		

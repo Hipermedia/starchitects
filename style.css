@@ -21570,6 +21570,10 @@ form.wpcf7-form input[type="submit"]:hover {
   /*propiedades auxiliares para la onda esa del zoom del mapa*/
 }
 
+.PrimalContacto .imagen-bg-contacto {
+  background-size: 100%;
+}
+
 .PrimalContacto .PrimalContacto-contenido {
   text-align: center;
 }
@@ -21674,6 +21678,7 @@ form.wpcf7-form input[type="submit"]:hover {
   background: none;
   border: none;
   border-radius: 0px;
+  padding-bottom: 1.5rem;
 }
 
 .PrimalTabs .PrimalTabs-contenido .custom-ul-nav ul {
@@ -21682,6 +21687,7 @@ form.wpcf7-form input[type="submit"]:hover {
 }
 
 .PrimalTabs .PrimalTabs-contenido .custom-ul-nav ul li {
+  padding: 0 0.3rem;
   cursor: pointer;
   width: auto !important;
   font-size: 20px;
@@ -21691,10 +21697,28 @@ form.wpcf7-form input[type="submit"]:hover {
 
 .PrimalTabs .PrimalTabs-contenido .custom-ul-nav ul li:first-child {
   width: 100% !important;
+  padding: 1rem 0;
 }
 
 .PrimalTabs .PrimalTabs-contenido .custom-ul-nav ul li::after {
   content: "/";
+  padding: 0 0.3rem;
+}
+
+.PrimalTabs .PrimalTabs-contenido .custom-ul-nav ul li.flex-active-slide {
+  color: #00BBE7;
+  font-weight: bold;
+}
+
+.PrimalTabs .PrimalTabs-contenido .custom-content-slider {
+  margin: 0;
+  background: none;
+  border: none;
+  border-radius: 0px;
+}
+
+.PrimalTabs .PrimalTabs-contenido .flex-direction-nav {
+  position: relative;
 }
 
 .PrimalTabs .contenido-tab .bloque {

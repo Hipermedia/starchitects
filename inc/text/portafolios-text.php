@@ -40,7 +40,7 @@
 		</div>
 
 		<!-- Slides -->
-		<div id="slider" class="flexslider">
+		<div id="slider" class="flexslider custom-content-slider">
 		  <ul class="slides">
 		    <li>
 		    	<div class="contenido-tab">
