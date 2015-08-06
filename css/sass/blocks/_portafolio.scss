@@ -20,45 +20,54 @@
 				width: 100%;
 			}
 		}
-		// Responsive
-		@media (max-width: $desktop-width) {
-			padding: 1.5rem;
-		}
 
-			.nav-tabs {
-				text-align: center;
+		.custom-ul-nav {
+			margin: 0;
+			background: none;
+			border: none;
+			border-radius: 0px;
 
-				.nombre-menu-tab {
+			ul {
+				width: 100% !important;
+				transform: none !important;
+
+				li {
+					cursor: pointer;
+					width: auto !important;
 					font-size: 20px;
-					float: none;
-					display: inline-block;
+					float: none !important;
+					display: inline-block !important;
 				}
 
-				.nombre-menu-tab::after {
-					content: "   /";
+				li:first-child {
+					width: 100% !important;
+				}
+				
+				li::after {
+					content: "/";
 				}
 			}
 		}
-		
-		.contenido-tab {
-
-			.bloque {
-				background-image: url('images/bg-tabs.jpg');
-				background-size: 100%;
-				display: inline-block;
-				width: 250px;
-				height: 200px;
-				margin: 0 10px;
-				margin-bottom: 1rem;
-			}
-
-			.bloque:nth-child(5) {
-				width: 98%;
-				height: 200px;
-				background-position: center;
-			}
-		}
-
 	}
+		
+	.contenido-tab {
+
+		.bloque {
+			background-image: url('images/bg-tabs.jpg');
+			background-size: 100%;
+			display: inline-block;
+			width: 250px;
+			height: 200px;
+			margin: 0 10px;
+			margin-bottom: 1rem;
+		}
+
+		.bloque:nth-child(5) {
+			width: 98%;
+			height: 200px;
+			background-position: center;
+		}
+	}
+}
 
 

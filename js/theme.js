@@ -47,6 +47,7 @@ jQuery(document).ready(function($) {
 	$('#carousel').flexslider({
 	  animation: "slide",
 	  controlNav: false,
+	  directionNav: false,
 	  animationLoop: false,
 	  slideshow: false,
 	  itemWidth: 210,

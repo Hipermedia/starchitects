@@ -12,40 +12,263 @@
 		<h2><?php the_sub_field('titulo_tabs') ?></h2>
 
 		<!-- Place somewhere in the <body> of your page -->
+		<!-- Navegación -->
+		<div id="carousel" class="flexslider custom-ul-nav">
+		  <ul class="slides">
+		    <li class="">
+		    	TRÁMITES FOVISSSTE E INFONAVIT
+		    </li>
+		    <li>
+				CONSULTORÍA
+		    </li>
+		    <li>
+				PLANOS
+		    </li>
+		    <li>
+				MANTENIMIENTO
+		    </li>
+		    <li>
+		    	DISEÑO 3D
+		    </li>
+		    <li>
+				REMODELACIÓN
+		    </li>
+		    <li>
+				CONSTRUCCIÓN
+		    </li>
+		  </ul>
+		</div>
+
+		<!-- Slides -->
 		<div id="slider" class="flexslider">
 		  <ul class="slides">
 		    <li>
-		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    	<div class="contenido-tab">
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    			<img src="" alt="">
+		    		</figure>
+		    	</div>	
 		    </li>
+
 		    <li>
-		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    	<div class="contenido-tab">
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    			<img src="" alt="">
+		    		</figure>
+		    	</div>	
 		    </li>
+
 		    <li>
-		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    	<div class="contenido-tab">
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    			<img src="" alt="">
+		    		</figure>
+		    	</div>	
 		    </li>
+
 		    <li>
-		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
+		    	<div class="contenido-tab">
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    			<img src="" alt="">
+		    		</figure>
+		    	</div>	
 		    </li>
-		    <!-- items mirrored twice, total of 12 -->
+
+		    <li>
+		    	<div class="contenido-tab">
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    			<img src="" alt="">
+		    		</figure>
+		    	</div>	
+		    </li>
+
+		    <li>
+		    	<div class="contenido-tab">
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    			<img src="" alt="">
+		    		</figure>
+		    	</div>	
+		    </li>
+
+		    <li>
+		    	<div class="contenido-tab">
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    		</figure>
+
+		    		<figure class="bloque">
+		    			<img src="" alt="">
+		    		</figure>
+		    	</div>	
+		    </li>
+
 		  </ul>
 		</div>
-		<div id="carousel" class="flexslider">
-		  <ul class="slides">
-		    <li>
-		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
-		    </li>
-		    <li>
-		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
-		    </li>
-		    <li>
-		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
-		    </li>
-		    <li>
-		      <img src="http://lorempixel.com/output/nature-q-c-640-480-5.jpg" />
-		    </li>
-		    <!-- items mirrored twice, total of 12 -->
-		  </ul>
-		</div>
+
 
 		
 	</div>

@@ -20514,7 +20514,8 @@ object {
 
 .Header .Header-contenido .Header-logo img.tiny {
   /*max-width: 50px;*/
-  opacity: 0;
+  /*opacity: 0;*/
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -21668,24 +21669,32 @@ form.wpcf7-form input[type="submit"]:hover {
   width: 100%;
 }
 
-@media (max-width: 1100px) {
-  .PrimalTabs .PrimalTabs-contenido {
-    padding: 1.5rem;
-  }
+.PrimalTabs .PrimalTabs-contenido .custom-ul-nav {
+  margin: 0;
+  background: none;
+  border: none;
+  border-radius: 0px;
 }
 
-.PrimalTabs .PrimalTabs-contenido .nav-tabs {
-  text-align: center;
+.PrimalTabs .PrimalTabs-contenido .custom-ul-nav ul {
+  width: 100% !important;
+  transform: none !important;
 }
 
-.PrimalTabs .PrimalTabs-contenido .nav-tabs .nombre-menu-tab {
+.PrimalTabs .PrimalTabs-contenido .custom-ul-nav ul li {
+  cursor: pointer;
+  width: auto !important;
   font-size: 20px;
-  float: none;
-  display: inline-block;
+  float: none !important;
+  display: inline-block !important;
 }
 
-.PrimalTabs .PrimalTabs-contenido .nav-tabs .nombre-menu-tab::after {
-  content: "   /";
+.PrimalTabs .PrimalTabs-contenido .custom-ul-nav ul li:first-child {
+  width: 100% !important;
+}
+
+.PrimalTabs .PrimalTabs-contenido .custom-ul-nav ul li::after {
+  content: "/";
 }
 
 .PrimalTabs .contenido-tab .bloque {
