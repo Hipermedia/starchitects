@@ -1,0 +1,185 @@
+/*------------------------------------------------*/
+/*-----------------[NAV]-----------------------*/
+/*------------------------------------------------*/
+
+/* MainNavClasico */
+
+.primalMainNav {
+	padding-bottom: .6rem;
+	width: 100%;
+	display: block;
+	float: right;
+	right: 0;
+	top: 4rem;
+	background: black;
+	@include transicion();
+	
+	@media (max-width: $tablet-width) {
+		width: 100%;
+		max-width: 100%;
+		position: relative;
+		display: block;
+		top: 0;
+		padding-bottom: 1.5rem;
+	}
+	
+	/* Clase que se le agrega al nav cuando se hace scroll */
+	&.tiny { 
+	  /*top: .5rem;*/
+	  background: #00BBE7;
+		
+		@media (max-width: $tablet-width) {
+			top: 0;
+		}
+
+
+	  /*a { color: $main-color; background: $main-color-text; }*/
+	  a:hover { color: $main-color-text; background: $main-color; }
+	  .current_page_item > a { color: $main-color; }
+	  .current_page_item > a:hover { color: $main-color-text; }
+	}
+	
+	.Header-logo-2 {
+		display: inline-block;
+		opacity: 0;
+		@include transicion();
+			
+			&.tiny {
+				opacity: 1;
+			}
+	}
+
+	ul {
+		display: inline-block;
+		text-align: center;
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+		z-index: 999;
+		position: relative;
+
+		@media (max-width: $tablet-width) {
+			margin: 0;
+			padding: 1rem 0 0;
+			width: 100% !important;
+			display: block;
+			list-style: none;
+			font-size: 1.1em;
+		}
+		&.activo {
+			@media (max-width: $tablet-width) {
+				display: none;
+			}
+		}
+	}
+	
+	.Datos {
+		opacity: 0;
+		display: inline-block;
+		vertical-align: bottom;
+		@include transicion();
+
+		&.tiny {
+			opacity: 1;
+			
+		}
+
+		.fondo-i {
+			padding: 0;
+			width: 30px;
+			height: 30px;
+			background: none;
+			display: inline-block;
+			border-radius: 50%;
+			border: 2px white solid;
+			text-align: center;
+			vertical-align: top;
+			margin-top: 10px;
+
+			i {
+				text-align: center;
+				color: white;
+				display: block;
+				margin-top: 5px;
+			}
+		}
+
+		.numeros {
+			color: white;
+			display: inline-block;
+
+			h3 {
+				margin: 0;
+				font-size: 1.2rem;
+			}
+		}
+	}
+
+	li {
+		/*float: left;*/
+		position: relative;
+		display: inline-block;
+
+		@media (max-width: 768px) {
+			width: 100%;
+			display: block;
+			text-align: center;
+			border-bottom: #CCC 1px solid;
+		}
+	}
+	a {
+		color: white;
+		text-transform: uppercase;
+		background-color: $nav-bg-text-color;
+		display: block;
+		line-height: 2em;
+		padding: 0px .8em;
+		text-decoration: none;
+		font-size: 1.15rem;
+		margin: 0 .25rem;
+		@include redondea(4px);
+		@include transicion(0.25s);
+
+		@media (max-width: 768px) {
+			height: 2.625em;
+		}
+	}
+	a:hover,
+	a:focus {
+		background: $nav-bg-text-color-hover; /* Show a solid color for older browsers */
+		color: $nav-text-color-hover;		
+	}
+	a.active {
+		font-weight: bold;
+	}
+
+	/* Clase del botón del menú que se muestra en pantallas pequeñas */
+	.toggle-nav {
+	    display:none;
+
+	    @media (max-width: $tablet-width) {
+	        padding:.5rem;
+	        display:block;
+	        margin: 0 auto;
+	        max-width: 280px;
+	        text-align: center;
+	        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+	        background:#444;
+	        color:#fff;
+	        font-size:1.25rem;
+	        text-transform: uppercase;
+	        transition:color linear 0.15s;
+	    }
+	}
+	.toggle-nav:hover, .toggle-nav.activo {
+        text-decoration:none;
+		background: #ccc;
+        color: #444;
+    }
+
+    .wrapper {
+    	width: 1000px;
+    	display: block;
+    	margin: 0 auto;
+    }
+}

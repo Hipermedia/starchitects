@@ -1,0 +1,89 @@
+/*------------------------------------------------*/
+/*------------------[BLOCKS]----------------------*/
+/*------------------------------------------------*/
+// PRIMAL
+.PrimalContacto {
+	/*padding-top: 6rem;*/
+	background: #F4FFEF;
+	background-size: 100%;
+	background-position: center;
+	padding-top: 2rem;
+
+	.imagen-bg-contacto {
+		background-size: 100%;
+	}
+
+	.PrimalContacto-contenido {
+		text-align: center;
+
+		figure {
+			width: 50px;
+			display: block;
+			margin: 0 auto;
+
+			img {
+				width: 100%;
+			}
+		}
+		// Responsive
+		@media (max-width: $desktop-width) {
+			padding: 1.5rem;
+		}
+
+		h2 {
+			text-transform: uppercase;
+		}
+		
+		.fondo-i.fb {
+			margin-right: 3rem;
+		}
+
+		.fondo-i.tw {
+			margin-left: 3rem;
+		}
+
+		.fondo-i {
+			margin: 3rem 0;
+			width: 125px;
+			height: 125px;
+			background: #009EE2;
+			display: inline-block;
+			border-radius: 50%;
+
+			i {
+				padding-top: 30px;
+				color: white;
+				font-size: 4rem;
+			}
+		}
+		
+		h3 {
+			padding-bottom: 3rem;
+		}
+
+		.Formulario {
+			color: white;
+			padding: 3rem 0;
+
+			.nombre,.email {
+				display: inline-block;
+				width: 46%;
+				color: #3A362D;
+			}
+
+			.nombre {
+				float: left;
+			}
+
+			.email {
+				float: right;
+			}
+		}
+	}
+
+	/*propiedades auxiliares para la onda esa del zoom del mapa*/
+	.Mapa iframe{
+	    pointer-events: none;
+	    line-height: 0;
+	}
+}

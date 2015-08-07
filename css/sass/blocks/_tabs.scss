@@ -1,0 +1,50 @@
+/*------------------------------------------------*/
+/*------------------[BLOCKS]----------------------*/
+/*------------------------------------------------*/
+// PRIMAL
+.PrimalTabs {
+	padding: 3rem 0;
+	background: #F4FFEF;
+	/*padding-top: 6rem;*/
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	background-repeat: no-repeat;
+
+	.PrimalTabs-contenido {
+		text-align: center;
+
+		figure {
+			width: 50px;
+			display: block;
+			margin: 0 auto;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		h2 {
+			text-transform: uppercase;
+		}
+
+		// Responsive
+		@media (max-width: $desktop-width) {
+			padding: 1.5rem;
+		}
+	}
+
+	.container {
+
+		.nav-tabs {
+			background: transparent;
+			border: none;
+
+			a{
+				text-transform: uppercase;
+				color: black;
+			}
+		}
+
+	}
+}
