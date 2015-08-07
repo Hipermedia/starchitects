@@ -4,7 +4,7 @@
 // PRIMAL
 .PrimalCita {
 	/*padding-top: 6rem;*/
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-position: center;
 	position: relative;
 	opacity: .8;
@@ -18,9 +18,15 @@
 		@media (max-width: $desktop-width) {
 			padding: 1.5rem;
 		}
+		@media (max-width: $tablet-width) {
+			padding: 0;
+		}
 
 		.PrimalCita-texto {
 			padding: 3rem 0;
+			@media (max-width: $smaller-width) {
+				padding: 0;
+			}
 					
 			i {
 				font-size: 11rem;
