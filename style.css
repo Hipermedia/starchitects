@@ -21687,6 +21687,7 @@ form.wpcf7-form input[type="submit"]:hover {
 }
 
 .PrimalTabs .PrimalTabs-contenido .custom-ul-nav ul li {
+  text-transform: uppercase;
   padding: 0 0.3rem;
   cursor: pointer;
   width: auto !important;
@@ -21717,12 +21718,8 @@ form.wpcf7-form input[type="submit"]:hover {
   border-radius: 0px;
 }
 
-.PrimalTabs .PrimalTabs-contenido .flex-direction-nav {
-  position: relative;
-}
-
-.PrimalTabs .contenido-tab .bloque {
-  background-image: url("images/bg-tabs.jpg");
+.PrimalTabs .PrimalTabs-contenido .custom-content-slider .slides .contenido-tab .bloque {
+  /*background-image: url('images/bg-tabs.jpg');*/
   background-size: 100%;
   display: inline-block;
   width: 250px;
@@ -21731,7 +21728,7 @@ form.wpcf7-form input[type="submit"]:hover {
   margin-bottom: 1rem;
 }
 
-.PrimalTabs .contenido-tab .bloque .social-share {
+.PrimalTabs .PrimalTabs-contenido .custom-content-slider .slides .contenido-tab .bloque .social-share {
   opacity: 0;
   padding-top: 2rem;
   padding-left: 1rem;
@@ -21748,20 +21745,24 @@ form.wpcf7-form input[type="submit"]:hover {
   transition: all 0.5s ease-in-out;
 }
 
-.PrimalTabs .contenido-tab .bloque .social-share i {
+.PrimalTabs .PrimalTabs-contenido .custom-content-slider .slides .contenido-tab .bloque .social-share i {
   padding: .3rem 0;
   width: 100%;
   display: block;
 }
 
-.PrimalTabs .contenido-tab .bloque:nth-child(5) {
+.PrimalTabs .PrimalTabs-contenido .custom-content-slider .slides .contenido-tab .bloque:nth-child(5) {
   width: 98%;
   height: 200px;
   background-position: center;
 }
 
-.PrimalTabs .contenido-tab .bloque:nth-child(5):hover .social-share {
+.PrimalTabs .PrimalTabs-contenido .custom-content-slider .slides .contenido-tab .bloque:nth-child(5):hover .social-share {
   opacity: 1;
+}
+
+.PrimalTabs .PrimalTabs-contenido .flex-direction-nav {
+  position: relative;
 }
 
 /* La personalización directa comienza aquí
