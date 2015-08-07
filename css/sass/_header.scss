@@ -31,7 +31,7 @@
 		height: 60px;
 		/*background: $header-bg;*/
 
-		@media (max-width: $tablet-width) {
+		@media (max-width: $desktop-width) {
 			height: auto;
 		}
 	}
