@@ -45,6 +45,9 @@
 		// opacity: 0;
 		display: none;
 		@include transicion();
+		@media (max-width: $tablet-width) {
+			display: block;
+		}
 			
 			&.tiny {
 				// opacity: 1;

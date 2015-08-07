@@ -55,16 +55,19 @@
 			display: block;
 			float: left;
 			max-width: 320px;
+			@media (max-width: $desktop-width) {
+				max-width: 120px;
+			}
 
 			@media (max-width: $tablet-width) {
-				max-width: 100%;
-				width: 100%;
-				text-align: center;
-				padding: 1rem 0;
+				display: none;
 			}
 			img {
 				max-width: 320px;
 				@include transicion();
+				@media (max-width: $desktop-width) {
+					width: 100%;
+				}
 
 				@media (max-width: $tablet-width) {
 					width: 75%;
@@ -88,6 +91,9 @@
 			color: white;
 			padding-top: 1rem;
 			@include transicion();
+			@media (max-width: $tablet-width) {
+				display: none;
+			}
 
 			&.tiny {
 				/*opacity: 0;*/
