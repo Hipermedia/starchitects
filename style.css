@@ -21765,5 +21765,37 @@ form.wpcf7-form input[type="submit"]:hover {
   position: relative;
 }
 
+.PrimalTabs .PrimalTabs-contenido .custom-controls-container .custom-navigation a {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #606060;
+}
+
+.PrimalTabs .PrimalTabs-contenido .custom-controls-container .custom-navigation .flex-prev {
+  float: left;
+}
+
+.PrimalTabs .PrimalTabs-contenido .custom-controls-container .custom-navigation .flex-prev i {
+  background-image: url("images/prev.png");
+  width: 20px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-right: 1rem;
+}
+
+.PrimalTabs .PrimalTabs-contenido .custom-controls-container .custom-navigation .flex-next {
+  float: right;
+}
+
+.PrimalTabs .PrimalTabs-contenido .custom-controls-container .custom-navigation .flex-next i {
+  background-image: url("images/next.png");
+  width: 20px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-left: 1rem;
+}
+
 /* La personalización directa comienza aquí
 -------------------------------------------------------------- */

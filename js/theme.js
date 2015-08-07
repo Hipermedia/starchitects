@@ -75,7 +75,9 @@ jQuery(document).ready(function($) {
 	  controlNav: false,
 	  animationLoop: false,
 	  slideshow: false,
-	  sync: "#carousel"
+	  sync: "#carousel",
+	  controlsContainer: $(".custom-controls-container"),
+	  customDirectionNav: $(".custom-navigation a")
 	});
 
 });

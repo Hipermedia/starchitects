@@ -10,7 +10,7 @@
 			<img src="<?php the_sub_field('icono_tabs'); ?>" alt="">
 		</figure>
 		<h2><?php the_sub_field('titulo_tabs') ?></h2>
-		
+
 		<!-- Navegación -->
 		<div id="carousel" class="flexslider custom-ul-nav">
 			<?php if( have_rows('tab_tabs') ) : ?>
@@ -23,20 +23,20 @@
 			  </ul>
 			<?php endif; ?>
 		</div>
+
 		<!-- Slides -->
 		<div id="slider" class="flexslider custom-content-slider">
 			<ul class="slides">
-		<?php while( have_rows('tab_tabs') ) : the_row(); ?>
-			<?php $categoria = get_sub_field('categoria_tab'); ?>
-			<?php 
-			// the query
-			$args = array(
-							'cat' 				=>	$categoria,
-							'posts_per_page'	=> 	9,
-						); 
-			$consulta = new WP_Query( $args ); ?>
-			<?php if ( $consulta->have_posts() ) : ?>
-
+				<?php while( have_rows('tab_tabs') ) : the_row(); ?>
+					<?php $categoria = get_sub_field('categoria_tab'); ?>
+					<?php 
+					// the query
+					$args = array(
+									'cat' 				=>	$categoria,
+									'posts_per_page'	=> 	9,
+								); 
+					$consulta = new WP_Query( $args ); ?>
+					<?php if ( $consulta->have_posts() ) : ?>
 						<!-- the loop -->
 						<li class="contenido-tab">
 							<?php $i = 1; ?>
@@ -59,10 +59,16 @@
 						<?php wp_reset_postdata(); ?>
 						<?php else : ?>
 							<p><?php _e( 'No hay resultados' ); ?></p>
-
-			<?php endif; ?>
-		<?php endwhile; ?>
+					<?php endif; ?>
+				<?php endwhile; ?>
 			</ul>
+		</div>
+
+		<div class="custom-controls-container">
+			<div class="custom-navigation">
+				<a href="#" class="flex-prev"><i></i>anterior</a>
+				<a href="#" class="flex-next">siguiente<i></i></a>
+			</div>
 		</div>
 	</div>
 </section>
