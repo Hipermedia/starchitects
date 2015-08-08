@@ -43,7 +43,7 @@
 							<?php while ( $consulta->have_posts() ) : $consulta->the_post(); ?>
 								<?php	$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 									<a class="bloque" href="<?php the_permalink(); ?>" style="background-image: url('<?php echo $url ?>')">
-										<h2 class="nombre-post"><?php the_title(); ?></h2>
+										<!-- <h2 class="nombre-post"><?php //the_title(); ?></h2> -->
 										<?php if($i==5) : ?>
 											<div class="social-share">
 												<p>Comparte:</p>

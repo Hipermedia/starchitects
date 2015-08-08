@@ -8,6 +8,10 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	padding: 2rem 0;
+	@media (max-width: $smaller-width) {
+		background-image: none;
+		background: #F4FFEF;
+	}
 
 	.PrimalText-contenido {
 		text-align: center;
