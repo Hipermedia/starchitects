@@ -46,10 +46,10 @@
 										<!-- <h2 class="nombre-post"><?php //the_title(); ?></h2> -->
 										<?php if($i==5) : ?>
 											<div class="social-share">
-												<p>Comparte:</p>
-												<i class="fa fa-facebook"></i>
-												<i class="fa fa-twitter"></i>
-												<i class="fa fa-pinterest"></i>
+												<!-- <p>Comparte:</p> -->
+												<!-- <i class="fa fa-facebook"></i> -->
+												<!-- <i class="fa fa-twitter"></i> -->
+												<!-- <i class="fa fa-pinterest"></i> -->
 											</div>
 										<?php endif; ?>	
 									</a>
