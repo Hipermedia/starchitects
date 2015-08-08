@@ -42,6 +42,7 @@
 							<?php $i = 1; ?>
 							<?php while ( $consulta->have_posts() ) : $consulta->the_post(); ?>
 								<?php	$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+<<<<<<< HEAD
 									<a class="bloque" href="<?php the_permalink(); ?>" style="background-image: url('<?php echo $url ?>')">
 										<!-- <h2 class="nombre-post"><?php //the_title(); ?></h2> -->
 										<?php if($i==5) : ?>
@@ -54,6 +55,19 @@
 										<?php endif; ?>	
 									</a>
 							<?php $i++; ?>
+=======
+									<div class="bloque" style="background-image: url('<?php echo $url ?>')">
+										<?php if($i==5) : ?>
+											<div class="social-share">
+												<p>Comparte:</p>
+												<i class="fa fa-facebook"></i>
+												<i class="fa fa-twitter"></i>
+												<i class="fa fa-pinterest"></i>
+											</div>
+										<?php endif; ?>	
+									</div>
+									<?php $i++; ?>
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 							<?php endwhile; ?>
 						</li>
 						<!-- end of the loop -->

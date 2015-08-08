@@ -5,6 +5,11 @@
 .PrimalContacto {
 	/*padding-top: 6rem;*/
 	background: #F4FFEF;
+<<<<<<< HEAD
+=======
+	background-size: 100%;
+	background-position: center;
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 	padding-top: 2rem;
 
 	.imagen-bg-contacto {
@@ -34,16 +39,22 @@
 		
 		.fondo-i.fb {
 			margin-right: 3rem;
+<<<<<<< HEAD
 			@media (max-width: $smaller-width) {
 				margin: 1rem 0 0 0;
 			}
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 		}
 
 		.fondo-i.tw {
 			margin-left: 3rem;
+<<<<<<< HEAD
 			@media (max-width: $smaller-width) {
 				margin: 1rem 0 0 0;
 			}
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 		}
 
 		.fondo-i {
@@ -64,7 +75,10 @@
 		h3 {
 			padding-bottom: 3rem;
 		}
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 
 		.Formulario {
 			color: white;
@@ -74,9 +88,12 @@
 				display: inline-block;
 				width: 46%;
 				color: #3A362D;
+<<<<<<< HEAD
 				@media (max-width: $tablet-width) {
 					width: 100%;
 				}
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 			}
 
 			.nombre {
@@ -86,6 +103,7 @@
 			.email {
 				float: right;
 			}
+<<<<<<< HEAD
 
 			.enviar {
 
@@ -95,6 +113,8 @@
 					}
 				}
 			}
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 		}
 	}
 
@@ -103,10 +123,13 @@
 	    pointer-events: none;
 	    line-height: 0;
 	}
+<<<<<<< HEAD
 
 	.imagen-bg-contacto {
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 }

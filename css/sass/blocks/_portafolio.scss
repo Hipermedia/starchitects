@@ -71,13 +71,17 @@
 
 					.bloque {
 						/*background-image: url('images/bg-tabs.jpg');*/
+<<<<<<< HEAD
 						position: relative;
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 						background-size: 100%;
 						display: inline-block;
 						width: 250px;
 						height: 200px;
 						margin: 0 10px;
 						margin-bottom: 1rem;
+<<<<<<< HEAD
 						@media (max-width: $desktop-width) {
 							width: 45%;
 						}
@@ -93,6 +97,8 @@
 							right: 0px;
 							left: 0px;
 						}
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 
 						.social-share {
 							opacity: 0;
@@ -119,9 +125,12 @@
 						width: 98%;
 						height: 200px;
 						background-position: center;
+<<<<<<< HEAD
 						@media (max-width: $desktop-width) {
 							width: 93%;
 						}
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 
 						&:hover {
 							
@@ -146,11 +155,14 @@
 
 				.flex-prev { 
 					float: left;
+<<<<<<< HEAD
 					@media (max-width: $smaller-width) {
 						display: block;
 						float: none;
 						padding: .5rem 0;
 					}
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 
 					i {
 						background-image: url('images/prev.png');
@@ -164,11 +176,14 @@
 
 				.flex-next { 
 					float: right;
+<<<<<<< HEAD
 					@media (max-width: $smaller-width) {
 						display: block;
 						float: none;
 						padding: .5rem 0;
 					}
+=======
+>>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 
 					i {
 						background-image: url('images/next.png');
