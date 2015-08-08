@@ -5,10 +5,7 @@
 /* MainNavClasico */
 
 .primalMainNav {
-<<<<<<< HEAD
 	text-align: center;
-=======
->>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 	padding-bottom: .6rem;
 	width: 100%;
 	display: block;
@@ -44,7 +41,6 @@
 	}
 	
 	.Header-logo-2 {
-<<<<<<< HEAD
 		// display: inline-block;
 		// opacity: 0;
 		display: none;
@@ -62,14 +58,6 @@
 				@media (max-width: $smaller-width ) {
 					display: none;
 				}
-=======
-		display: inline-block;
-		opacity: 0;
-		@include transicion();
-			
-			&.tiny {
-				opacity: 1;
->>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 			}
 	}
 
@@ -98,19 +86,13 @@
 	}
 	
 	.Datos {
-<<<<<<< HEAD
 		// opacity: 0;
 		// display: inline-block;
 		display: none;
-=======
-		opacity: 0;
-		display: inline-block;
->>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 		vertical-align: bottom;
 		@include transicion();
 
 		&.tiny {
-<<<<<<< HEAD
 			// opacity: 1;
 			display: inline-block;
 			@media (max-width: $desktop-width) {
@@ -119,10 +101,6 @@
 			@media (max-width: $smaller-width ) {
 				display: none;
 			}
-=======
-			opacity: 1;
-			
->>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
 		}
 
 		.fondo-i {
@@ -222,11 +200,8 @@
     	width: 1000px;
     	display: block;
     	margin: 0 auto;
-<<<<<<< HEAD
     	@media (max-width: $desktop-width) {
     		width: 100%;
     	}
-=======
->>>>>>> 5c760c28a79833df44dc6c0c74a0c576615aa31d
     }
 }
