@@ -77,6 +77,12 @@
 						height: 200px;
 						margin: 0 10px;
 						margin-bottom: 1rem;
+						@media (max-width: $desktop-width) {
+							width: 45%;
+						}
+						@media (max-width: $smaller-width) {
+							width: 43%;
+						}
 
 						.social-share {
 							opacity: 0;
@@ -103,6 +109,9 @@
 						width: 98%;
 						height: 200px;
 						background-position: center;
+						@media (max-width: $desktop-width) {
+							width: 93%;
+						}
 
 						&:hover {
 							
@@ -127,6 +136,11 @@
 
 				.flex-prev { 
 					float: left;
+					@media (max-width: $smaller-width) {
+						display: block;
+						float: none;
+						padding: .5rem 0;
+					}
 
 					i {
 						background-image: url('images/prev.png');
@@ -140,6 +154,11 @@
 
 				.flex-next { 
 					float: right;
+					@media (max-width: $smaller-width) {
+						display: block;
+						float: none;
+						padding: .5rem 0;
+					}
 
 					i {
 						background-image: url('images/next.png');
