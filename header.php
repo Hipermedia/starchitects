@@ -55,7 +55,7 @@
 
 <body name="nav-inicio" <?php body_class(); ?>>
 
-<header id="header" class="Header" role="banner" >
+<header id="header" class="Header<?php if (is_single()) { echo "post detected"; } ?>" role="banner" >
     
     <!-- Menú principal -->  
     <?php primalNav(); ?>
@@ -84,8 +84,6 @@
         </div>
         <!-- Formulario de búsqueda [Catacterística superior] -->
         <?php // get_search_form(); ?>
-        
-
         
     </section>
 </header>

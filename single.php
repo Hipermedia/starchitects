@@ -6,7 +6,6 @@
 get_header(); ?>
 
 <section class="content">
-
 	<?php while ( have_posts() ) : the_post(); ?>
 	     	<article class="single">
 				
@@ -14,12 +13,12 @@ get_header(); ?>
 			
 				<?php the_content(); ?>	
 			    
-				<?php anliSocialShare(); ?>
+				<?php //anliSocialShare(); ?>
 	   
 		</article><!-- .single ?> -->
 	<?php endwhile; // end of the loop. ?>
 	
-	<?php get_sidebar(); ?>
+	<?php //get_sidebar(); ?>
 
 </section><!-- .content -->
 

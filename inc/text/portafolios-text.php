@@ -42,17 +42,29 @@
 							<?php $i = 1; ?>
 							<?php while ( $consulta->have_posts() ) : $consulta->the_post(); ?>
 								<?php	$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-									<a class="bloque" href="<?php the_permalink(); ?>" style="background-image: url('<?php echo $url ?>')">
-										<!-- <h2 class="nombre-post"><?php //the_title(); ?></h2> -->
+									<div class="bloque" style="background-image: url('<?php echo $url ?>')">
+										<a class="nombre-post" href="<?php the_permalink(); ?>">
+											<?php the_title(); ?>
+										</a>
+										
 										<?php if($i==5) : ?>
 											<div class="social-share">
-												<p>Comparte:</p>
-												<i class="fa fa-facebook"></i>
-												<i class="fa fa-twitter"></i>
-												<i class="fa fa-pinterest"></i>
+												<p>COMPARTE:</p>
+												<a class="facebook" href="<?php the_permalink(); ?>" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;">
+												    <i class="fa fa-facebook"></i>
+												</a>
+												<a class="twitter" href="#" onclick="popUp=window.open('https://twitter.com/share?text=<?php the_title(); ?>&url=<?php the_permalink(); ?>', 'popupwindow', 'scrollbars=yes,width=630,height=440');popUp.focus();return false">
+												    <i class="fa fa-twitter"></i>
+												</a>
+												<?php //obtengo el url de la imagen para hacer el PIN 
+												$image_obt = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
+												$pin_image = $image_obt['0']; ?> 
+												<a class="pinterest" href="#" onclick="popUp=window.open('//www.pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&media=<?php echo $pin_image; ?>&description=<?php the_title(); ?>', 'popupwindow', 'scrollbars=yes,width=630,height=440');popUp.focus();return false">
+												    <i class="fa fa-pinterest"></i>    	
+												</a>
 											</div>
 										<?php endif; ?>	
-									</a>
+									</div>
 							<?php $i++; ?>
 							<?php endwhile; ?>
 						</li>

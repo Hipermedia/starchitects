@@ -96,6 +96,23 @@
 				}
 			}
 		}
+
+		.firma {
+			border-top: 2px white solid;
+			width: 50%;
+			margin: 0 auto;
+			color: white;
+			font-size: 1rem;
+
+			a{
+				color: white;
+				font-weight: bold;
+			}
+
+			a:hover {
+				color: #F7861D;
+			}
+		}
 	}
 
 	/*propiedades auxiliares para la onda esa del zoom del mapa*/

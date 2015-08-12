@@ -1,0 +1,14 @@
+.content {
+	.u-contenedor {
+		display: block;
+		overflow: hidden; 
+		clear: both;
+		width: $desktop-width;
+		margin: 0 auto;
+
+		@media (max-width: $desktop-width) {
+			max-width: $desktop-width;
+			width: 100%;
+		}
+	}
+}

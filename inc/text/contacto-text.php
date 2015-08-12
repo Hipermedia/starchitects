@@ -33,6 +33,10 @@
 				<h3><?php the_sub_field('text_up_cf7'); ?></h3>
 				<?php echo do_shortcode(get_sub_field('cf7_contacto')); ?>
 			</div>
+			<div class="firma">
+				<p>© 2015 StArchitects-Todos los derechos reservados</p>
+				<p>diseño: <a href="http://puntonaranja.com.mx/">PUNTO|NARANJA.com.mx</a></p>
+			</div>
 		</div>
 	</div>
 </section>

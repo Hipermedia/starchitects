@@ -5,7 +5,7 @@
 
 </main>
 
-<footer class="Footer">	
+<!-- <footer class="Footer">	
     
     <section class="u-contenedor">
     	
@@ -14,7 +14,7 @@
     	</aside>
     </section>     
 
-</footer>
+</footer> -->
 
 <!-- JS personalizados del tema -->
 <?php waypoints(); // Librería que detecta puntos en el scroll de pantalla ?>

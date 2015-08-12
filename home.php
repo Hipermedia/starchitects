@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-
+	
 	<!-- Cover -->
 	<?php primalCover(); // Cover con imágen de fondo, imagen principal y títulos ?>
 	
