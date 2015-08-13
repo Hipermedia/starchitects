@@ -25,7 +25,10 @@
 jQuery(window).load(function() {
   jQuery('#starchitects-carousel'+<?php echo $dif_id; ?>).flexslider({
     animation: "slide",
-    directionNav: false
+    directionNav: false,
+    animationLoop: true,
+    slideshow: true,
+    slideshowSpeed: 4500
   });
 });
 </script>

@@ -40,6 +40,16 @@
 					font-size: 20px;
 					float: none !important;
 					display: inline-block !important;
+					/*@include transicion ();*/
+
+					a {
+						color: #212121;
+					}
+
+					a:hover {
+						font-weight: bold;
+						color: #00BBE7;
+					}
 				}
 
 				li:first-child {
@@ -65,91 +75,92 @@
 			border: none;
 			border-radius: 0px;
 
-			.slides {
+			.bloque {
+				position: relative;
+				background-size: 100%;
+				display: inline-block;
+				width: 250px;
+				height: 200px;
+				margin: 0 10px;
+				margin-bottom: 1rem;
+				@media (max-width: $desktop-width) {
+					width: 45%;
+				}
+				@media (max-width: $smaller-width) {
+					width: 40%;
+					height: 150px;
+				}
 
-				.contenido-tab {
+				.nombre-post {
+					position: absolute;
+					margin-left: auto;
+					margin-right: auto;
+					right: 0px;
+					left: 0px;
+					height: inherit;
+					width: inherit;
+					font-size: 1.4rem;
+					color: white;
+					padding-top: 2rem;
+					opacity: 0;
+					text-shadow: 2px 2px #000;
+					@include transicion();
+				}
 
-					.bloque {
-						position: relative;
-						background-size: 100%;
-						display: inline-block;
-						width: 250px;
-						height: 200px;
-						margin: 0 10px;
-						margin-bottom: 1rem;
-						@media (max-width: $desktop-width) {
-							width: 45%;
-						}
-						@media (max-width: $smaller-width) {
-							width: 40%;
-							height: 150px;
-						}
+				.nombre-post:hover {
+					opacity: 1;
+				}
 
-						.nombre-post {
-							position: absolute;
-							margin-left: auto;
-							margin-right: auto;
-							right: 0px;
-							left: 0px;
-							height: inherit;
-							width: inherit;
-							font-size: 1.4rem;
-							color: white;
-							padding-top: 2rem;
-							opacity: 0;
-							text-shadow: 2px 2px #000;
-							@include transicion();
-						}
+				.social-share {
+					opacity: 0;
+					padding-top: 2rem;
+					padding-left: 1rem;
+					min-width: 150px;
+					max-width: 150px;
+					height: 100%;
+					color: white;
+					background: rgba(0,0,0,0.5);
+					font-size: 25px;
+					text-align: left;
+					@include transicion();
 
-						.nombre-post:hover {
-							opacity: 1;
-						}
+					p { font-size: 1rem; }
 
-						.social-share {
-							opacity: 0;
-							padding-top: 2rem;
-							padding-left: 1rem;
-							min-width: 150px;
-							max-width: 150px;
-							height: 100%;
-							color: white;
-							background: rgba(0,0,0,0.5);
-							font-size: 25px;
-							text-align: left;
-							@include transicion();
+					a {
+						color: white;
 
-							p { font-size: 1rem; }
-
-							a {
-								color: white;
-
-								i {
-									padding: .3rem 0;
-									width: 100%;
-									display: block;
-								}
-							}
+						i {
+							padding: .3rem 0;
+							width: 100%;
+							display: block;
 						}
 					}
+				}
+			}
 
-					.bloque:nth-child(5) {
-						width: 98%;
-						height: 200px;
-						background-position: center;
-						@media (max-width: $desktop-width) {
-							width: 93%;
-						}
+			.bloque:hover {
+				
+				.nombre-post {
+					background: rgba(0,0,0,0.5);
+				}
+			}
 
-						.nombre-post {
+			.bloque:nth-child(5) {
+				width: 98%;
+				height: 200px;
+				background-position: center;
+				@media (max-width: $desktop-width) {
+					width: 93%;
+				}
+
+				.nombre-post {
 							font-size: 2.5rem;
-						}
+				}
 
-						&:hover {
+				&:hover {
 							
-							.social-share {
-								opacity: 1;
-							}
-						}
+					.social-share {
+						opacity: 1;
 					}
 				}
 			}
@@ -157,50 +168,6 @@
 
 		.flex-direction-nav {
 			position: relative;
-		}
-
-		.custom-controls-container {
-			
-			.custom-navigation {
-
-				a { text-transform: uppercase; font-size: 25px; color: #606060; }
-
-				.flex-prev { 
-					float: left;
-					@media (max-width: $smaller-width) {
-						display: block;
-						float: none;
-						padding: .5rem 0;
-					}
-
-					i {
-						background-image: url('images/prev.png');
-						width: 20px;
-						height: 32px;
-						display: inline-block;
-						vertical-align: text-bottom;
-						margin-right: 1rem;
-					} 
-				}
-
-				.flex-next { 
-					float: right;
-					@media (max-width: $smaller-width) {
-						display: block;
-						float: none;
-						padding: .5rem 0;
-					}
-
-					i {
-						background-image: url('images/next.png');
-						width: 20px;
-						height: 32px;
-						display: inline-block;
-						vertical-align: text-bottom;
-						margin-left: 1rem;
-					} 
-				}
-			}
 		}	
 	}
 }
