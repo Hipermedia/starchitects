@@ -20,7 +20,7 @@
         </ul>
     </div>
   
-    <div id="galeria-slider-thumb-nav<?php echo $dif_id; ?>" class="flexslider">
+    <div id="galeria-slider-thumb-nav<?php echo $dif_id; ?>" class="flexslider carousel">
         <ul class="slides">
           <?php while (have_rows('galeriaSlider')) : the_row(); ?>
             <li class="CoverSlider-slide">

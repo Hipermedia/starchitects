@@ -9,7 +9,7 @@
 		<figure>
 			<img src="<?php the_sub_field('icono_tabs'); ?>" alt="">
 		</figure>
-			<h2><?php the_sub_field('titulo_tabs') ?></h2>
+		<h2><?php the_sub_field('titulo_tabs') ?></h2>
 
 		<!-- Navegación -->
 		<div class="flexslider custom-ul-nav">

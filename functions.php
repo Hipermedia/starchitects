@@ -80,6 +80,10 @@ function get_plantilla_url() {
 /* BLOQUES
  * ------------------------------------------------------------- */
 
+function shPageHome() {
+	get_template_part('sh-page-multiproposito');
+}
+
 /* Navegación
  * ------------------------------------------------------------- */
 /* PRIMAL; navegación principal */
@@ -108,6 +112,11 @@ function primalBlocks() {
 /* SAUTE; bloques */
 function sauteBlocks() {
 	get_template_part( 'inc/blocks/saute-blocks');
+}
+
+/* SAUTE; bloques */
+function articulos() {
+	get_template_part( 'inc/blocks/articulos');
 }
 
 /* Texto

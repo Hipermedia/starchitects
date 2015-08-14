@@ -7,8 +7,31 @@
 ----------------------------------------------- */
 
 .Footer {
-	padding-top: 2rem;	
-	background: $footer-bg;
+	/*padding-top: 2rem;	*/
+	/*background: $footer-bg;*/
+	/*background: #00BBE7;*/
+
+	.firma {
+		background: #00BBE7;
+		font-weight: bold;
+		color: white;
+		padding-top: 1rem;
+		text-align: center;
+
+		p {
+			margin: 0;
+			padding: .2rem 0;
+
+			a {
+				color: white;
+			}
+
+			a:hover {
+				color: #F7861D;
+			}
+		}
+	}
+
 	
 
 	.Footer-creditos {

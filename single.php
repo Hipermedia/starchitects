@@ -70,6 +70,12 @@ get_header(); ?>
 
 				<?php endif;  ?>
 
+				<?php if( get_row_layout() == 'articulos_layout' ): ?>
+
+					<?php articulos(); ?>
+					
+				<?php endif;  ?>
+
 			<?php endwhile;  ?>
 
 		<?php endif;  ?> 

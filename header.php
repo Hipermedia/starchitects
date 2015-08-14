@@ -55,11 +55,11 @@
 
 <body name="nav-inicio" <?php body_class(); ?>>
 
-<header id="header" class="Header <?php if (is_single()) { echo "post-detected"; } ?>" role="banner" >
+<header id="header" class="Header" role="banner" >
     
     <!-- Menú principal -->  
     <?php primalNav(); ?>
-    <?php if(is_home()) { ?>
+    <?php if(is_page_template('sh-page-multiporpuse.php')) { ?>
     <section class="Header-contenido">
         
         <!-- Logo -->

@@ -40,12 +40,12 @@
 			display: block;
 			@media (max-width: $tablet-width) {
 				width: 100%;
-				margin-top: -5rem;
+				/*margin-top: -5rem;*/
 			}
 		}
 	}
 
-	#cover-slider-thumb-nav {
+	.carousel {
 		@media (max-width: $tablet-width) {
 			display: none;
 		}
