@@ -1,0 +1,53 @@
+.CoverSlider {
+	display: block;
+	overflow: hidden; 
+	clear: both;
+	width: $desktop-width;
+	margin: 0 auto;
+
+	@media (max-width: $desktop-width) {
+		max-width: $desktop-width;
+		width: 100%;
+	}
+
+	.flex-direction-nav {
+		opacity: 0;
+		@media (max-width: $tablet-width) {
+			opacity: 1;
+		}
+	}
+
+	.flexslider { background: none; margin: 0; border: none; }
+
+	.CoverSlider-slide {
+		/*background: #4A4A4A;*/
+
+		.CoverSlider-slideImage {
+			width: 70%;
+			float: left;
+			display: block;
+			@media (max-width: $tablet-width) {
+				width: 100%;
+			}
+		}
+
+		.CoverSlider-slideCaption {
+			font-size: 1rem;
+			color: #5d5d5c;
+			padding: 1.2rem 1rem;
+			width: 30%;
+			float: left;
+			display: block;
+			@media (max-width: $tablet-width) {
+				width: 100%;
+				margin-top: -5rem;
+			}
+		}
+	}
+
+	#cover-slider-thumb-nav {
+		@media (max-width: $tablet-width) {
+			display: none;
+		}
+	}
+}

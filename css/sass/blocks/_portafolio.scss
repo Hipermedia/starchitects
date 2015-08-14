@@ -40,14 +40,13 @@
 					font-size: 20px;
 					float: none !important;
 					display: inline-block !important;
-					/*@include transicion ();*/
 
 					a {
 						color: #212121;
+						@include transicion ();
 					}
 
 					a:hover {
-						font-weight: bold;
 						color: #00BBE7;
 					}
 				}

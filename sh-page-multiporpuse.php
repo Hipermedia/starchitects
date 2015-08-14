@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Multipropósito
+ * Template Name: Portada
  *
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
@@ -23,6 +23,12 @@ get_header(); ?>
 			<?php primalCover(); ?>
 
 		<?php endif;  ?> 
+
+		<?php if( get_row_layout() == 'galeriaSlider_layout' ): ?>
+			
+			<?php sliderGaleria(); ?>
+
+		<?php endif;  ?>
 
 		<?php if( get_row_layout() == 'texto_layout' ): ?>
 			

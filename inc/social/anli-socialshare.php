@@ -5,7 +5,7 @@
 
 <div class="anli-ss">  
     <div id="footer-compartir">
-    	<div class="recomienda">Compartir:</div>            
+    	<div class="recomienda">COMPARTE:</div>            
         
         <!-- FACEBOOK --> 
         <div class="bt-share">        
@@ -34,7 +34,7 @@
         </div><!-- .tw-share -->
         
         <!-- GOOGLE +1 -->
-        <div class="bt-share">
+<!--         <div class="bt-share">
         	<a class="googleplus" href="#" 
                 onclick="popUp=window.open(
                             'https://plus.google.com/share?url=<?php the_permalink(); ?>', 
@@ -44,10 +44,10 @@
                             return false">
                 
             </a>
-    	</div>
+    	</div> -->
                 
         <!-- LINKEDIN -->
-        <div class="bt-share">
+<!--         <div class="bt-share">
         	<a class="linkedin" href="#"
         	onclick="popUp=window.open(
 					'http://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php the_title(); ?>&summary=&source=', 
@@ -57,7 +57,7 @@
                      return false">
                     	
         	</a>
-        </div><!-- .tw-share -->
+        </div> --><!-- .tw-share -->
         
         <!-- PINTEREST -->
         <?php //obtengo el url de la imagen para hacer el PIN 

@@ -94,6 +94,11 @@ function primalCover() {
 	get_template_part( 'inc/cover/primal-cover');
 }
 
+/* Slider galería */
+function sliderGaleria() {
+	get_template_part( 'inc/cover/slider-galeria');
+}
+
 /* Bloques
  * ------------------------------------------------------------- */
 /* PRIMAL; bloques */

@@ -35,6 +35,7 @@
 					// the query
 					$args = array(
 									'cat' 				=>	$categoria,
+									'posts_per_page'	=> 	1,
 								); 
 					$consulta = new WP_Query( $args ); ?>
 					<?php if ( $consulta->have_posts() ) : ?>
