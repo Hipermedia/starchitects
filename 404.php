@@ -10,7 +10,7 @@
 get_header(); ?>
 
 	<div id="primary">
-		<div id="content" role="main">
+		<div id="content" role="main error-style">
 
 			<article id="post-0" class="post error404 not-found">
 				<header class="entry-header">
@@ -18,9 +18,9 @@ get_header(); ?>
 				</header>
 
 				<div class="entry-content">
-					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help.', 'shbase' ); ?></p>
+					<p><?php _e( 'Parece que no podemos encontrar lo que estás buscando.', 'shbase' ); ?></p>
 
-					<?php get_search_form(); ?>
+					<?php //get_search_form(); ?>
 
 				</div><!-- .entry-content -->
 			</article><!-- #post-0 -->

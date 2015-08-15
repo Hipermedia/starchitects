@@ -4,7 +4,7 @@
 ?>
 
 <!-- PrimalBloques -->
-<section name="nav-contacto" class="PrimalContacto" style="">
+<section name="nav-contacto" id="nav-contacto" class="PrimalContacto" style="">
 	<!-- Contenedor -->
 	<div class="PrimalContacto-contenido u-contenedor" >
 

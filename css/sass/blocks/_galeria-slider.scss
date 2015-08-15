@@ -46,6 +46,10 @@
 	}
 
 	.carousel {
+
+		li {
+			margin: 0;
+		}
 		@media (max-width: $tablet-width) {
 			display: none;
 		}

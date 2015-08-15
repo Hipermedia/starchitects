@@ -11,6 +11,67 @@
 	/*background: $footer-bg;*/
 	/*background: #00BBE7;*/
 
+	.custom-ul-nav {
+		margin: 0;
+		background: none;
+		border: none;
+		border-radius: 0px;
+		padding-bottom: 1.5rem;
+
+		ul {
+			width: 1100px;
+			transform: none !important;
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			@media (max-width: $desktop-width) {
+				width: 100%;
+			}
+
+			li {
+				text-transform: uppercase;
+				padding: 0 .3rem;
+				cursor: pointer;
+				width: auto !important;
+				font-size: 20px;
+				float: none !important;
+				display: inline-block !important;
+				@media (max-width: $smaller-width) {
+					width: 100% !important;
+					padding: .5rem 0;
+					display: block;
+				}
+
+				a {
+					color: #212121;
+					@include transicion ();
+				}
+
+				a:hover {
+					color: #00BBE7;
+				}
+			}
+
+			li:first-child {
+				width: 100% !important;
+				padding: 1rem 0;
+				@media (max-width: $smaller-width) {
+					padding: .5rem 0;
+				}
+			}
+			
+			li::after {
+				content: "/";
+				padding: 0 .3rem;
+			}
+
+			li.flex-active-slide {
+				color: #00BBE7;
+				font-weight: bold;
+			}
+		}
+	}
+
 	.firma {
 		background: #00BBE7;
 		font-weight: bold;

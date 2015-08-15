@@ -14,16 +14,16 @@
 		<?php //wp_nav_menu( array( 'theme_location' => 'primary', 'container' => '', 'menu_class' => 'activo', 'menu_id' => 'header-menu') ); ?>
 		<ul class="activo">
 			<li>
-				<a href="#nav-inicio" class="active">Inicio</a>
+				<a href="<?php if(!is_page_template('sh-page-multiporpuse.php')) { echo bloginfo('url'); } ?>#nav-inicio" class="active">Inicio</a>
 			</li>
 			<li class="">
-				<a href="#nav-filosofia">Filosofía</a>
+				<a href="<?php if(!is_page_template('sh-page-multiporpuse.php')) { echo bloginfo('url'); } ?>#nav-filosofia">Filosofía</a>
 			</li>
 		    <li class="">
-				<a href="#nav-soluciones">Soluciones</a>
+				<a href="<?php if(!is_page_template('sh-page-multiporpuse.php')) { echo bloginfo('url'); } ?>#nav-soluciones">Soluciones</a>
 		    </li>
 		    <li class="">
-		        <a href="#nav-contacto">Contacto</a>
+		        <a href="<?php if(!is_page_template('sh-page-multiporpuse.php')) { echo bloginfo('url'); } ?>http://localhost/starchitects.com.mx#nav-contacto">Contacto</a>
 		    </li>
 		</ul>
 
